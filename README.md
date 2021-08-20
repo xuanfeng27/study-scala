@@ -1,0 +1,2 @@
+# study-scala
+learn scala
