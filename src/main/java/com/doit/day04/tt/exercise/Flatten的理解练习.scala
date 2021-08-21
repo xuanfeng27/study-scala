@@ -17,7 +17,7 @@ object Flatten的理解练习 {
 
     val mp = Map("a" -> 1, "b" -> 2, "c" -> 3)
     // 给我压平 ["a",1,"b",2,"c",3]
-
+    println(mp.map(t => t.productIterator).flatten.toList)
 
 
 
